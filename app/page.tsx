@@ -1,22 +1,27 @@
-"use client"
+/* eslint-disable @typescript-eslint/no-explicit-any */
+"use client";
 
-import { useState } from "react"
-import { projects } from "./data/projects"
-import { ProjectDetails } from "./components/ProjectDetails"
-import { ProjectTypeBadge } from "./components/ProjectTypeBadge"
-import { DeveloperProfile } from "./components/DeveloperProfile"
-import Image from "next/image"
+import { useState } from "react";
+import { projects } from "./data/projects";
+import { ProjectDetails } from "./components/ProjectDetails";
+import { ProjectTypeBadge } from "./components/ProjectTypeBadge";
+import { DeveloperProfile } from "./components/DeveloperProfile";
+import Image from "next/image";
+import { ToolsSection } from "./components/ToolsSection";
 
 export default function Home() {
-  const [selectedProject, setSelectedProject] = useState(null)
+  const [selectedProject, setSelectedProject] = useState(null);
 
   return (
     <div>
       <DeveloperProfile />
+      <ToolsSection />
       <div className="container mx-auto px-4 py-16">
-        <h2 className="text-3xl font-bold mb-8 text-center">Galería de Proyectos</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center">
+          Highlighted Projects
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {projects.map((project) => (
+          {projects.map((project: any) => (
             <div
               key={project.id}
               className="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer transform transition-transform hover:scale-105"
@@ -39,9 +44,12 @@ export default function Home() {
             </div>
           ))}
         </div>
-        <ProjectDetails project={selectedProject} isOpen={!!selectedProject} onClose={() => setSelectedProject(null)} />
+        <ProjectDetails
+          project={selectedProject}
+          isOpen={!!selectedProject}
+          onClose={() => setSelectedProject(null)}
+        />
       </div>
     </div>
-  )
+  );
 }
-

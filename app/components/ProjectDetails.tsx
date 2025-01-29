@@ -1,20 +1,35 @@
-"use client"
+"use client";
 
-import type { Project } from "../data/projects"
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
-import Image from "next/image"
-import Link from "next/link"
-import { ProjectTypeBadge } from "./ProjectTypeBadge"
+import type { Project } from "../data/projects";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+import Image from "next/image";
+import Link from "next/link";
+import { ProjectTypeBadge } from "./ProjectTypeBadge";
 
 interface ProjectDetailsProps {
-  project: Project | null
-  isOpen: boolean
-  onClose: () => void
+  project: Project | null;
+  isOpen: boolean;
+  onClose: () => void;
 }
 
-export function ProjectDetails({ project, isOpen, onClose }: ProjectDetailsProps) {
-  if (!project) return null
+export function ProjectDetails({
+  project,
+  isOpen,
+  onClose,
+}: ProjectDetailsProps) {
+  if (!project) return null;
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
@@ -26,18 +41,19 @@ export function ProjectDetails({ project, isOpen, onClose }: ProjectDetailsProps
           </DialogTitle>
         </DialogHeader>
         <div className="grid gap-4">
-          <Carousel>
+          <Carousel className="mx-16">
             <CarouselContent>
               {project.images.map((image, index) => (
                 <CarouselItem key={index}>
-                  <Image
-                    src={image || "/placeholder.svg"}
-                    alt={`${project.title} - Image ${index + 1}`}
-                    width={600}
-                    height={400}
-                    className="rounded-lg max-h-[300px]"
-
-                  />
+                  <div className="flex justify-center">
+                    <Image
+                      src={image || "/placeholder.svg"}
+                      alt={`${project.title} - Image ${index + 1}`}
+                      width={600}
+                      height={400}
+                      className="h-[400px] w-auto object-contain"
+                    />
+                  </div>
                 </CarouselItem>
               ))}
             </CarouselContent>
@@ -69,6 +85,5 @@ export function ProjectDetails({ project, isOpen, onClose }: ProjectDetailsProps
         </div>
       </DialogContent>
     </Dialog>
-  )
+  );
 }
-
