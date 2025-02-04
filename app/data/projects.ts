@@ -20,9 +20,9 @@ export const projects: Project[] = [
     link: "https://soyyord.gob.do",
     images: [
       "./images/sy_1.png",
-      "../images/sy_2.png",
+      "./images/sy_2.png",
       "./images/sy_3.png",
-      "../images/sy_4.png",
+      "./images/sy_4.png",
     ],
     type: "mobile",
   },
@@ -35,12 +35,12 @@ export const projects: Project[] = [
     year: 2024,
     link: "https://www.gob.do",
     images: [
-      "/images/pb_1.png",
-      "/images/pb_2.png",
-      "/images/pb_3.png",
-      "/images/pb_4.png",
-      "/images/pb_5.png",
-      "/images/pb_6.png",
+      "./images/pb_1.png",
+      "./images/pb_2.png",
+      "./images/pb_3.png",
+      "./images/pb_4.png",
+      "./images/pb_5.png",
+      "./images/pb_6.png",
     ],
     type: "frontend",
   },
@@ -52,7 +52,7 @@ export const projects: Project[] = [
     technology: "React.js, NestJS, MySQL",
     year: 2024,
     link: "",
-    images: ["/images/ml_3.png","/images/ml_1.png", "/images/ml_2.png"],
+    images: ["./images/ml_3.png","./images/ml_1.png", "./images/ml_2.png"],
     type: "full stack",
   },
   {
@@ -63,9 +63,9 @@ export const projects: Project[] = [
     year: 2024,
     link: "https://scg-portal.vercel.app",
     images: [
-      "/images/sc_1.png",
-      "/images/sc_2.png",
-      "/images/sc_3.png"
+      "./images/sc_1.png",
+      "./images/sc_2.png",
+      "./images/sc_3.png"
     ],
     type: "frontend"
   }
@@ -78,10 +78,10 @@ export const projects: Project[] = [
   year: 2023,
   link: "",
   images: [
-    "/images/rp_1.png",
-    "/images/rp_2.png",
-    "/images/rp_3.png",
-    "/images/rp_4.png"
+    "./images/rp_1.png",
+    "./images/rp_2.png",
+    "./images/rp_3.png",
+    "./images/rp_4.png"
   ],
   type: "mobile"
 },
@@ -93,13 +93,13 @@ export const projects: Project[] = [
   year: 2023,
   link: "https://becas.gob.do",
   images: [
-    "/images/bc_7.png",
-    "/images/bc_1.png",
-    "/images/bc_2.png",
-    "/images/bc_3.png",
-    "/images/bc_4.png",
-    "/images/bc_5.png",
-    "/images/bc_6.png"
+    "./images/bc_7.png",
+    "./images/bc_1.png",
+    "./images/bc_2.png",
+    "./images/bc_3.png",
+    "./images/bc_4.png",
+    "./images/bc_5.png",
+    "./images/bc_6.png"
   ],
   type: "frontend"
 },
@@ -111,10 +111,10 @@ export const projects: Project[] = [
   year: 2020,
   link: "",
   images: [
-    "/images/tx_1.png",
-    "/images/tx_2.png",
-    "/images/tx_3.png",
-    "/images/tx_4.png",
+    "./images/tx_1.png",
+    "./images/tx_2.png",
+    "./images/tx_3.png",
+    "./images/tx_4.png",
   ],
   type: "full stack"
 },
@@ -126,7 +126,7 @@ export const projects: Project[] = [
   year: 2024,
   link: "",
   images: [
-    "/images/mk_1.png",
+    "./images/mk_1.png",
   ],
   type: "full stack"
 }
