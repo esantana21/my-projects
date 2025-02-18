@@ -49,7 +49,7 @@ export const projects: Project[] = [
     title: "Microslab",
     description:
       "A cutting-edge clinical laboratory system designed to streamline laboratory operations and enhance efficiency. Microslab features an intuitive interface for managing patient data, test results, and laboratory workflows. Additionally, it includes custom-built integrations with laboratory equipment, enabling seamless communication and automated data handling.",
-    technology: "React.js, NestJS, MySQL",
+    technology: "React.js, NestJS, MySQL, Java",
     year: 2024,
     link: "",
     images: ["./images/ml_3.png","./images/ml_1.png", "./images/ml_2.png"],
@@ -107,7 +107,7 @@ export const projects: Project[] = [
   id: 7,
   title: "TurnXpress",
   description: "A robust queuing and flow management system designed for banks, hospitals, and other service-oriented environments. Built within a monorepo architecture, TurnXpress uses NestJS for its backend and ReactJS for its frontend. The system efficiently manages customer call flows, tracks wait times, and provides real-time updates to optimize user experiences and operational efficiency.",
-  technology: "ReactJSa, NestJS, MySQL",
+  technology: "ReactJS, NestJS, MySQL",
   year: 2020,
   link: "",
   images: [
