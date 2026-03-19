@@ -8,9 +8,9 @@ export function Footer() {
         </div>
         
         <div className="flex gap-10">
-          <a className="text-on-surface-variant-custom hover:text-primary-custom transition-opacity opacity-80 hover:opacity-100" href="#">Github</a>
-          <a className="text-on-surface-variant-custom hover:text-primary-custom transition-opacity opacity-80 hover:opacity-100" href="#">LinkedIn</a>
-          <a className="text-on-surface-variant-custom hover:text-primary-custom transition-opacity opacity-80 hover:opacity-100" href="#">Source Code</a>
+          <a className="text-on-surface-variant-custom hover:text-primary-custom transition-opacity opacity-80 hover:opacity-100" href="https://github.com/esantana21" target="_blank" rel="noopener noreferrer">Github</a>
+          <a className="text-on-surface-variant-custom hover:text-primary-custom transition-opacity opacity-80 hover:opacity-100" href="https://www.linkedin.com/in/esantana21/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a className="text-on-surface-variant-custom hover:text-primary-custom transition-opacity opacity-80 hover:opacity-100" href="https://github.com/esantana21/my-projects" target="_blank" rel="noopener noreferrer">Source Code</a>
         </div>
       </div>
     </footer>

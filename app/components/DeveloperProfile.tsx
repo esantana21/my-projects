@@ -24,9 +24,7 @@ export function HeroSection() {
             <button className="bg-gradient-to-br from-primary-custom to-primary-dim-custom text-on-primary-custom px-8 py-4 rounded-full font-headline font-bold text-lg shadow-lg shadow-primary-custom/20 hover:scale-105 transition-transform">
               Download Resume
             </button>
-            <button className="px-8 py-4 rounded-full font-headline font-bold text-lg border border-outline-variant-custom hover:bg-surface-container-high-custom transition-colors text-on-surface-custom">
-              View My Work
-            </button>
+       
           </div>
         </div>
         
