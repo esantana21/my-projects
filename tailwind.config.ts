@@ -49,12 +49,36 @@ const config: Config = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+  			// Custom design system colors
+  			"surface-custom": "#080e19",
+  			"surface-container-custom": "#0d1320",
+  			"surface-container-low-custom": "#0a101d",
+  			"surface-container-high-custom": "#121a29",
+  			"surface-container-highest-custom": "#1a2436",
+  			"surface-bright-custom": "#162030",
+  			"primary-custom": "#8ff5ff",
+  			"primary-dim-custom": "#48d4f3",
+  			"secondary-custom": "#00e5ff",
+  			"tertiary-custom": "#00b8d4",
+  			"on-surface-custom": "#e1e7f0",
+  			"on-surface-variant-custom": "#a6abba",
+  			"outline-custom": "#424855",
+  			"outline-variant-custom": "#2d3442",
+  			"on-primary-custom": "#00363d",
+  		},
+  		fontFamily: {
+  			headline: ["Space Grotesk"],
+  			body: ["Inter"],
+  			label: ["Manrope"]
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
-  			sm: 'calc(var(--radius) - 4px)'
+  			sm: 'calc(var(--radius) - 4px)',
+  			DEFAULT: "0.25rem",
+  			xl: "0.75rem",
+  			full: "9999px"
   		}
   	}
   },
