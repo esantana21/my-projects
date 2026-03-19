@@ -23,7 +23,7 @@ export function Navigation() {
             </svg>
           </button>
           <a 
-            href="https://docs.google.com/viewer?url=https://storage.rxresu.me/clp9fy7vb98iw9huni1lrshme/resumes/emanuel-santana.pdf&embedded=true" 
+            href="https://rxresu.me/emanuelsantana50/emanuel-santana" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-[#8ff5ff] text-[#00363d] px-6 py-2 rounded-full font-headline text-sm font-bold hover:scale-105 transition-transform active:scale-95 inline-block"
