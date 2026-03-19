@@ -11,7 +11,7 @@ export function ContactSection() {
         </h2>
         
         <p className="text-on-surface-variant-custom text-lg mb-12 max-w-2xl mx-auto">
-          I'm currently looking for new opportunities and collaborations. Whether you have a question or just want to say hi, my inbox is always open.
+          I&apos;m currently looking for new opportunities and collaborations. Whether you have a question or just want to say hi, my inbox is always open.
         </p>
         
         <div className="bg-[#0d1320]/60 backdrop-blur-xl p-1 rounded-[2.5rem] inline-flex mb-12">

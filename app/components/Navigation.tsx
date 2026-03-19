@@ -1,11 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
 
 export function Navigation() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   return (
     <nav className="fixed top-0 w-full z-50 bg-[#0d1320]/60 backdrop-blur-xl border-b border-[#424855]/15 shadow-[0_20_40px_rgba(0,0,0,0.4)]">
       <div className="flex justify-between items-center px-8 h-20 max-w-screen-2xl mx-auto">
