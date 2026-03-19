@@ -140,7 +140,11 @@ export const projects: Project[] = [
     technology: "NestJS, Vite, LLM, RAG, WhatsApp API",
     year: 2024,
     link: "",
-    images: [],
+    images: [
+      "/images/bc_1.png",
+      "/images/bc_2.png",
+      "/images/bc_3.png",
+    ],
     type: "full stack",
   }
 ];

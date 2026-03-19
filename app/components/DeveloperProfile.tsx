@@ -21,9 +21,14 @@ export function HeroSection() {
           </p>
           
           <div className="flex flex-wrap gap-4 pt-4">
-            <button className="bg-gradient-to-br from-primary-custom to-primary-dim-custom text-on-primary-custom px-8 py-4 rounded-full font-headline font-bold text-lg shadow-lg shadow-primary-custom/20 hover:scale-105 transition-transform">
+            <a 
+              href="https://storage.rxresu.me/clp9fy7vb98iw9huni1lrshme/resumes/emanuel-santana.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-gradient-to-br from-primary-custom to-primary-dim-custom text-on-primary-custom px-8 py-4 rounded-full font-headline font-bold text-lg shadow-lg shadow-primary-custom/20 hover:scale-105 transition-transform inline-block"
+            >
               Download Resume
-            </button>
+            </a>
        
           </div>
         </div>

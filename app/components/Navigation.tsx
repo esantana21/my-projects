@@ -25,9 +25,14 @@ export function Navigation() {
               <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
             </svg>
           </button>
-          <button className="bg-[#8ff5ff] text-[#00363d] px-6 py-2 rounded-full font-headline text-sm font-bold hover:scale-105 transition-transform active:scale-95">
+          <a 
+            href="https://docs.google.com/viewer?url=https://storage.rxresu.me/clp9fy7vb98iw9huni1lrshme/resumes/emanuel-santana.pdf&embedded=true" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-[#8ff5ff] text-[#00363d] px-6 py-2 rounded-full font-headline text-sm font-bold hover:scale-105 transition-transform active:scale-95 inline-block"
+          >
             Resume
-          </button>
+          </a>
         </div>
       </div>
     </nav>
